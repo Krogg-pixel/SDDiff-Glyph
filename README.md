@@ -41,7 +41,7 @@ SDDiff-Glyph
 │
 ├── evaluation
 │   ├── compute_metrics.py
-│   └── comparison image sets
+│   └── comparison_images
 │
 ├── results
 │   ├── ablation
