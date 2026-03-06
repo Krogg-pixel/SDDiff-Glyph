@@ -102,7 +102,16 @@ dataset/analysis/semantic_elements_stats.py
 
 can be used to compute statistics of semantic elements in the annotated dataset.
 
+Two annotation subsets are included in this repository:
+
+- `annotations_625.jsonl`: the complete annotated dataset used in the full training experiments.
+- `annotations_400.jsonl`: a partial semantic annotation subset used in the reduced-supervision experiments.
+
+The naming convention reflects the approximate scale of the subset rather than the exact number of annotated samples.
+
 ## Training
+
+The training process is based on the Stable Diffusion v1.5 backbone implemented in the HuggingFace Diffusers library. 
 
 Training is performed using LoRA fine-tuning on a Stable Diffusion backbone.
 
@@ -182,6 +191,7 @@ A pretrained LoRA checkpoint is included for demonstration:
 
 weights/pytorch_lora_weights.safetensors
 
+The provided LoRA checkpoint corresponds to the semantic supervision configuration used in the main experiment reported in the paper.
 
 ## Reproducibility
 
