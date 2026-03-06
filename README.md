@@ -79,6 +79,8 @@ The dataset used in this study consists of decorative Chinese character imagery 
 
 The complete dataset cannot be publicly released due to copyright and data usage considerations. To avoid potential misuse, including unintended commercial use of the source materials, only a small subset of sample images and the annotation format are provided in this repository for demonstration purposes.
 
+However, the full dataset used in the experiments can be made available for academic research purposes upon reasonable request to the corresponding author.
+
 This repository therefore provides:
 
 -   a small subset of **sample images**
