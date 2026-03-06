@@ -19,6 +19,7 @@ The framework integrates semantic annotations with LoRA-based parameter-efficien
 
 The repository is organized as follows:
 
+```
 SDDiff-Glyph
 │
 ├── dataset
@@ -51,6 +52,7 @@ SDDiff-Glyph
 │   └── pytorch_lora_weights.safetensors
 │
 └── requirements.txt
+```
 
 ## Installation
 
@@ -87,10 +89,12 @@ These materials are sufficient to understand the dataset structure and reproduce
 
 Dataset directory:
 
+```
 dataset/
 ├── samples              example images
 ├── annotations          annotation files
 └── semantic_levels      semantic supervision variants
+```
 
 The script
 
